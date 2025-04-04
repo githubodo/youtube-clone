@@ -30,6 +30,11 @@ export const sidebarData = [
 
 export const countries = [
   {
+    name: "Malaysia",
+    countryCode: "MY",
+    url: "https://t3.ftcdn.net/jpg/10/44/47/52/360_F_1044475231_05hzuYP9l3cXz0M2QpxBP0P7MOV9yi4v.jpg",
+  },
+  {
     name: "India",
     countryCode: "IN",
     url: "https://t4.ftcdn.net/jpg/02/81/47/57/240_F_281475718_rlQONmoS2E3CJtv0zFv2HwZ1weGhxpff.jpg",
