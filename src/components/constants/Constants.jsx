@@ -30,19 +30,14 @@ export const sidebarData = [
 
 export const countries = [
   {
+    name: "India",
+    countryCode: "IN",
+    url: "https://t4.ftcdn.net/jpg/02/81/47/57/240_F_281475718_rlQONmoS2E3CJtv0zFv2HwZ1weGhxpff.jpg",
+  },
+  {
     name: "America",
     countryCode: "US",
     url: "https://t3.ftcdn.net/jpg/02/70/24/98/240_F_270249859_mf1Kyad7MO3Gb1BGvBahbB9SNttnVZO7.jpg",
-  },
-  {
-    name: "England",
-    countryCode: "GB",
-    url: "https://t3.ftcdn.net/jpg/06/01/92/56/240_F_601925600_OPd3C0QuEE283YX2Fj6v3QtFFnkdtETF.jpg",
-  },
-  {
-    name: "Canada",
-    countryCode: "CA",
-    url: "https://t3.ftcdn.net/jpg/01/71/57/72/240_F_171577280_Gj1SV9BV1vrvowWTexaiJW7OBj7uNgCT.jpg",
   },
   {
     name: "Germany",
@@ -55,8 +50,13 @@ export const countries = [
     url: "https://t3.ftcdn.net/jpg/01/79/73/80/240_F_179738020_0cdBcea7tUpPoFTCiiVfl6p9chD28tQz.jpg",
   },
   {
-    name: "India",
-    countryCode: "IN",
-    url: "https://t4.ftcdn.net/jpg/02/81/47/57/240_F_281475718_rlQONmoS2E3CJtv0zFv2HwZ1weGhxpff.jpg",
+    name: "Canada",
+    countryCode: "CA",
+    url: "https://t3.ftcdn.net/jpg/01/71/57/72/240_F_171577280_Gj1SV9BV1vrvowWTexaiJW7OBj7uNgCT.jpg",
+  },
+  {
+    name: "England",
+    countryCode: "GB",
+    url: "https://t3.ftcdn.net/jpg/06/01/92/56/240_F_601925600_OPd3C0QuEE283YX2Fj6v3QtFFnkdtETF.jpg",
   },
 ];
