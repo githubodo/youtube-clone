@@ -48,7 +48,7 @@ const Header = () => {
                   alt="logo"
                 />
                 <Text color={"white"} fontWeight={"bold"}>
-                  YouTube
+                  
                 </Text>
               </Flex>
             </NavLink>
