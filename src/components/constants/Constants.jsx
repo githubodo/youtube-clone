@@ -32,7 +32,7 @@ export const countries = [
   {
     name: "Malaysia",
     countryCode: "MY",
-    url: "https://t3.ftcdn.net/jpg/10/44/47/52/360_F_1044475231_05hzuYP9l3cXz0M2QpxBP0P7MOV9yi4v.jpg",
+    url: "https://media.istockphoto.com/id/1445564404/vector/vector-illustration-of-flat-round-shaped-of-malaysia-flag-official-national-flag-in-button.jpg?s=612x612&w=0&k=20&c=2iHWuPvYFHykB2Fwrzc_BHPtuKtQekGIbqvEn0gVgJk=",
   },
   {
     name: "Indonesia",

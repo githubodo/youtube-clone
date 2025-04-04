@@ -26,7 +26,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const [flag, setFlag] = useState(
-    "https://t4.ftcdn.net/jpg/02/81/47/57/240_F_281475718_rlQONmoS2E3CJtv0zFv2HwZ1weGhxpff.jpg"
+    "https://media.istockphoto.com/id/1445564404/vector/vector-illustration-of-flat-round-shaped-of-malaysia-flag-official-national-flag-in-button.jpg?s=612x612&w=0&k=20&c=2iHWuPvYFHykB2Fwrzc_BHPtuKtQekGIbqvEn0gVgJk="
   );
   return (
     <>
