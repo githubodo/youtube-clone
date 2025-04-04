@@ -23,10 +23,10 @@ import SearchBox from "./SearchBox";
 
 const Header = () => {
   const { setCountry, country } = useContext(YoutubeContext);
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   const [flag, setFlag] = useState(
-    "https://t3.ftcdn.net/jpg/02/70/24/98/240_F_270249859_mf1Kyad7MO3Gb1BGvBahbB9SNttnVZO7.jpg"
+    "https://t4.ftcdn.net/jpg/02/81/47/57/240_F_281475718_rlQONmoS2E3CJtv0zFv2HwZ1weGhxpff.jpg"
   );
   return (
     <>
