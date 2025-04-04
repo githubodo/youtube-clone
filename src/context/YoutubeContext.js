@@ -11,7 +11,7 @@ export const ContextProvider = ({ children }) => {
   const [searchVideos, setSearchVideos] = useState([]);
   const [trendingVideosLength, setTrendingVideosLength] = useState(15);
   const [autocomplete, setAutocomplete] = useState([]);
-  const [country, setCountry] = useState("IN");
+  const [country, setCountry] = useState("US");
   const [isLoading, setIsLoading] = useState(false);
   const [nextPageToken, setNextPageToken] = useState("");
 
