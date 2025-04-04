@@ -1,7 +1,7 @@
 {
-  "short_name": "Youtube Clone",
-  "name": "Youtube clone by Shiv",
-  "description":"This is React YouTube Clone Where you can stream trending videos of different countries with infinite scrolling, you can search videos and you can choose any section in to sidebar which you want",
+  "short_name": "Radio Malaysia",
+  "name": "Radio Malaysia Online",
+  "description":"Layan Lagu Dan Video Online Percuma Di Radio Malaysia Online",
   "icons": [
     {
       "src": "favicon.ico",
