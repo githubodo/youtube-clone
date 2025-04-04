@@ -35,19 +35,19 @@ export const countries = [
     url: "https://t3.ftcdn.net/jpg/10/44/47/52/360_F_1044475231_05hzuYP9l3cXz0M2QpxBP0P7MOV9yi4v.jpg",
   },
   {
+    name: "Indonesia",
+    countryCode: "ID",
+    url: "https://t4.ftcdn.net/jpg/07/72/42/37/360_F_772423770_U6fHIuldSK1Gj5fjyyM4CpfK3qovegWb.jpg",
+  },
+  {
+    name: "Singapore",
+    countryCode: "SG",
+    url: "https://img.freepik.com/premium-vector/circle-flag-logo-icon-computer-vector-illustration-design_1143296-3223.jpg?semt=ais_hybrid",
+  },
+  {
     name: "America",
     countryCode: "US",
     url: "https://t3.ftcdn.net/jpg/02/70/24/98/240_F_270249859_mf1Kyad7MO3Gb1BGvBahbB9SNttnVZO7.jpg",
-  },
-  {
-    name: "Germany",
-    countryCode: "DE",
-    url: "https://t3.ftcdn.net/jpg/04/44/28/64/240_F_444286454_6FR1VrzfVE8AJCwd28ft9T4pxEwH22Ng.jpg",
-  },
-  {
-    name: "Japan",
-    countryCode: "JP",
-    url: "https://t3.ftcdn.net/jpg/01/79/73/80/240_F_179738020_0cdBcea7tUpPoFTCiiVfl6p9chD28tQz.jpg",
   },
   {
     name: "Canada",
@@ -58,6 +58,16 @@ export const countries = [
     name: "England",
     countryCode: "GB",
     url: "https://t3.ftcdn.net/jpg/06/01/92/56/240_F_601925600_OPd3C0QuEE283YX2Fj6v3QtFFnkdtETF.jpg",
+  },
+  {
+    name: "Germany",
+    countryCode: "DE",
+    url: "https://t3.ftcdn.net/jpg/04/44/28/64/240_F_444286454_6FR1VrzfVE8AJCwd28ft9T4pxEwH22Ng.jpg",
+  },
+  {
+    name: "Japan",
+    countryCode: "JP",
+    url: "https://t3.ftcdn.net/jpg/01/79/73/80/240_F_179738020_0cdBcea7tUpPoFTCiiVfl6p9chD28tQz.jpg",
   },
   {
     name: "India",
