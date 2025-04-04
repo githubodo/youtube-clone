@@ -15,12 +15,12 @@ import { FaUserTie } from "react-icons/fa";
 
 export const sidebarData = [
   { name: "Trending", icon: <AiTwotoneFire /> },
-  { name: "Adveture and Movies", icon: <BiMoviePlay /> },
+  { name: "Adventure and Movies", icon: <BiMoviePlay /> },
   { name: "Programming and Coding", icon: <BsCodeSlash /> },
   { name: "Science and Fact", icon: <MdScience /> },
   { name: "Technology and Space", icon: <FaSpaceAwesome /> },
   { name: "Business and Startups", icon: <FaUserTie /> },
-  { name: "Sports and Highlightes", icon: <MdSportsBaseball /> },
+  { name: "Sports and Highlights", icon: <MdSportsBaseball /> },
   { name: "Movies and Webseries", icon: <BiCameraMovie /> },
   { name: "AI and ChatGpt", icon: <GiBrain /> },
   { name: "Health and Fitness", icon: <MdOutlineHealthAndSafety /> },
