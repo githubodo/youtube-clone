@@ -35,11 +35,6 @@ export const countries = [
     url: "https://t3.ftcdn.net/jpg/10/44/47/52/360_F_1044475231_05hzuYP9l3cXz0M2QpxBP0P7MOV9yi4v.jpg",
   },
   {
-    name: "India",
-    countryCode: "IN",
-    url: "https://t4.ftcdn.net/jpg/02/81/47/57/240_F_281475718_rlQONmoS2E3CJtv0zFv2HwZ1weGhxpff.jpg",
-  },
-  {
     name: "America",
     countryCode: "US",
     url: "https://t3.ftcdn.net/jpg/02/70/24/98/240_F_270249859_mf1Kyad7MO3Gb1BGvBahbB9SNttnVZO7.jpg",
@@ -63,5 +58,10 @@ export const countries = [
     name: "England",
     countryCode: "GB",
     url: "https://t3.ftcdn.net/jpg/06/01/92/56/240_F_601925600_OPd3C0QuEE283YX2Fj6v3QtFFnkdtETF.jpg",
+  },
+  {
+    name: "India",
+    countryCode: "IN",
+    url: "https://t4.ftcdn.net/jpg/02/81/47/57/240_F_281475718_rlQONmoS2E3CJtv0zFv2HwZ1weGhxpff.jpg",
   },
 ];
