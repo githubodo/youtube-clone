@@ -97,7 +97,7 @@ const Video = () => {
     width: "860",
     showRelatedVideos: false,
     playerVars: {
-      autoplay: 0, // Auto-play the video
+      autoplay: 1, // Auto-play the video
     },
   };
 
@@ -106,7 +106,7 @@ const Video = () => {
     width: "100%",
     showRelatedVideos: false,
     playerVars: {
-      autoplay: 0, // Auto-play the video
+      autoplay: 1, // Auto-play the video
     },
   };
 
