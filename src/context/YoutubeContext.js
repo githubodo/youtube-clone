@@ -9,7 +9,7 @@ export default YoutubeContext
 export const ContextProvider = ({ children }) => {
   const [trendingVideos, setTrendingVideos] = useState([]);
   const [searchVideos, setSearchVideos] = useState([]);
-  const [trendingVideosLength, setTrendingVideosLength] = useState(15);
+  const [trendingVideosLength, setTrendingVideosLength] = useState(50);
   const [autocomplete, setAutocomplete] = useState([]);
   const [country, setCountry] = useState("US");
   const [isLoading, setIsLoading] = useState(false);
