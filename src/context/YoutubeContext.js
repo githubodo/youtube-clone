@@ -83,7 +83,7 @@ export const ContextProvider = ({ children }) => {
         q: query,
         part: "snippet,id",
         regionCode: country,
-        maxResults: "50",
+        maxResults: "150",
         type: "video",
         videoDuration: "medium"
       },
