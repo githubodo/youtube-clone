@@ -52,7 +52,7 @@ export const ContextProvider = ({ children }) => {
   const getTrendingVideos = async () => {
     setIsLoading(true)
     try {
-      const res = await axios.get(`https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,statistics&chart=mostPopular&regionCode=${country}&key=${`${process.env.REACT_APP_YOUTUBE_API_KEY_GOOGLE2}`}&maxResults=15`)
+      const res = await axios.get(`https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,statistics&chart=mostPopular&regionCode=${country}&key=${`${process.env.REACT_APP_YOUTUBE_API_KEY_GOOGLE2}`}&maxResults=50`)
       setTrendingVideos(res.data.items)
       setTrendingVideosLength(res.data.pageInfo.totalResults)
       setNextPageToken(res.data.nextPageToken)
@@ -60,7 +60,7 @@ export const ContextProvider = ({ children }) => {
     } catch (error) {
 
       try {
-        const res = await axios.get(`https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,statistics&chart=mostPopular&regionCode=${country}&key=${`${process.env.REACT_APP_YOUTUBE_API_KEY_GOOGLE1}`}&maxResults=15`)
+        const res = await axios.get(`https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,statistics&chart=mostPopular&regionCode=${country}&key=${`${process.env.REACT_APP_YOUTUBE_API_KEY_GOOGLE1}`}&maxResults=50`)
         setTrendingVideos(res.data.items)
         setTrendingVideosLength(res.data.pageInfo.totalResults)
         setNextPageToken(res.data.nextPageToken)
@@ -83,7 +83,7 @@ export const ContextProvider = ({ children }) => {
         q: query,
         part: "snippet,id",
         regionCode: country,
-        maxResults: "150",
+        maxResults: "50",
         type: "video",
         videoDuration: "medium"
       },
