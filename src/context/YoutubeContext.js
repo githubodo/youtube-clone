@@ -11,7 +11,7 @@ export const ContextProvider = ({ children }) => {
   const [searchVideos, setSearchVideos] = useState([]);
   const [trendingVideosLength, setTrendingVideosLength] = useState(15);
   const [autocomplete, setAutocomplete] = useState([]);
-  const [country, setCountry] = useState("US");
+  const [country, setCountry] = useState("IN");
   const [isLoading, setIsLoading] = useState(false);
   const [nextPageToken, setNextPageToken] = useState("");
 
@@ -26,7 +26,7 @@ export const ContextProvider = ({ children }) => {
       const options = {
 
         method: "GET",
-        url: "https://youtube-v31.p.rapidapi.com/auto-complete/",
+        url: "https://youtube-data8.p.rapidapi.com/auto-complete/",
         params: {
           q: query,
           hl: "en",
@@ -34,7 +34,7 @@ export const ContextProvider = ({ children }) => {
         },
         headers: {
           "X-RapidAPI-Key": process.env.REACT_APP_YOUTUBE_API_KEY_RAPIDAPI,
-          "X-RapidAPI-Host": "youtube-v31.p.rapidapi.com"
+          "X-RapidAPI-Host": "youtube-data8.p.rapidapi.com"
         }
       };
 
@@ -119,4 +119,3 @@ export const ContextProvider = ({ children }) => {
     </YoutubeContext.Provider>
   )
 }
- 
