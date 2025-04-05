@@ -48,7 +48,7 @@ const MobileSearch = () => {
             <Input
               border={"none"}
               color={"white"}
-              placeholder="Search YouTube"
+              placeholder="Search videos.."
               borderRadius={"30px"}
               bg={"#303030"}
               height={"fit-content"}
