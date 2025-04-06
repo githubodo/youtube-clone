@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://video.tvmalaysia.live/sitemap.xml
